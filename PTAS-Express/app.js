@@ -6,9 +6,9 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 
-// controller / rotas
+// Controller // Rotas
 app.get('/', (req, res) => {
-  res.render('index', { message: 'Sou muito Scraipter' });
+  res.render('home', { message: 'Esta é a página home.' });
 });
 
 app.get('/contatos', (req, res) => {

@@ -1,0 +1,14 @@
+*{
+    font-family: sans-serif;
+}
+
+.main{
+    height: 400px;
+    width: 500px;
+}
+
+img{
+    height: 400px;
+    width: 500px;
+    cursor: pointer;
+}

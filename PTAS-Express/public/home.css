@@ -1,0 +1,34 @@
+*{
+    font-family: sans-serif;
+}
+
+.main{
+    height: 400px;
+    width: 500px;
+}
+
+img{
+    height: 400px;
+    width: 500px;
+    cursor: pointer;
+}
+
+.produtoUm{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.produtoDois{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.produtoTrês{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.produtoQuatro{
+    vertical-align: top;
+    display: inline-block;
+}
