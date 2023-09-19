@@ -11,8 +11,8 @@ app.get('/', (req, res) => {
   res.render('home', { message: 'Esta é a página home.' });
 });
 
-app.get('/contatos', (req, res) => {
-  res.render('contatos', { message: 'Esta é a página de contatos' });
+app.get('/produtos', (req, res) => {
+  res.render('produtos', { message: 'Esta é a página de produtos' });
 })
 
 app.listen(port, () => {
