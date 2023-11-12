@@ -11,8 +11,16 @@ app.get('/', (req, res) => {
   res.render('home', { message: 'Esta é a página home.' });
 });
 
-app.get('/produtos', (req, res) => {
-  res.render('produtos', { message: 'Esta é a página de produtos' });
+app.get('/produto1', (req, res) => {
+  res.render('produto1', { message: 'Esta é a primeira página de produto.' });
+})
+
+app.get('/produto2', (req, res) => {
+  res.render('produto2', { message: 'Esta é a segunda página de produto.' });
+})
+
+app.get('/produto3', (req, res) => {
+  res.render('produto3', { message: 'Esta é a terceira página de produto.' });
 })
 
 app.listen(port, () => {
