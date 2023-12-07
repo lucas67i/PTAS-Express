@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Define o título da página -->
+    <title>Detalhes do Monitor</title>
+
+    <!-- Inclui o arquivo de estilo externo chamado "style.css" -->
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+
+<body>
+    <!-- Barra de navegação -->
+    <nav class="navbar">
+        <!-- Logo da navegação -->
+        <img src="logo.png" alt="Logo" class="navbar-logo">
+        
+        <!-- Link de navegação para a página inicial -->
+        <a href="/" class="button">Home</a>
+    </nav>
+
+    <!-- Conteúdo principal da página -->
+    <div class="content">
+        <!-- Detalhes do produto -->
+        <div class="product-details">
+            <!-- Título principal da página, exibindo o nome do produto -->
+            <h1 class="title"><%= produto.productName %></h1>
+
+            <!-- Imagem do produto -->
+            <img src="<%= produto.imagePath %>" alt="Imagem do Produto">
+
+            <!-- Descrição do produto -->
+            <div class="product-description">
+                <!-- Parágrafo exibindo a descrição do produto -->
+                <p><%= produto.productDescription %></p>
+            </div>
+
+            <!-- Preço do produto -->
+            <p><%= produto.productPrice %></p>
+        </div>
+    </div>
+</body>
+
+</html>
